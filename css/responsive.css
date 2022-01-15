@@ -1,0 +1,188 @@
+@media screen and (min-width: 992px){
+    .mobile-nav-hamburger {
+        display: none;
+    }
+    .mobile-nav{
+        display: none;
+    }
+}
+@media screen and (max-width: 992px) {
+    .desktop-nav{
+        display: none;
+    }
+    .mobile-nav-hamburger {
+        color: #fff;
+        font-size: 35px;
+        margin-top: 28px;
+        position: relative;
+        display: inline-block;
+        margin-left: 11px;
+    }
+#headerhf .mobile-nav-hamburger {
+    color:#000;
+}
+    .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 10;
+        top: 0;
+        left: 0;
+        background-color: #111;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+        font-family: 'Lato', sans-serif;
+    }
+
+    .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #fff;
+        display: block;
+        transition: 0.3s;
+    }
+
+    .sidenav a:hover {
+        color: #f1f1f1;
+    }
+
+    .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+
+    .servicesnew {
+        width: calc(50% - 20px);
+        margin: 15px 10px;
+
+    }
+
+}
+
+@media (max-width:768px) {
+    #txtc {
+        width: 100%;
+        box-sizing: border-box;
+
+    }
+
+    #txtcc {
+        font-size: 40px;
+    }
+
+    #services,
+    #serviceskkunutra,
+    #aboutme,
+    #aboutmek,
+    #aboutmetxt,
+    #aboutmeavatar {
+        height: auto;
+    }
+
+    #services h1 {
+        font-size: 25px;
+    }
+
+    .contspace,
+    .contspacemed {
+        height: 35px;
+    }
+
+    #serviceskk,
+    .contspacemed,
+    #aboutmetxt {
+        width: 100%;
+        margin: 0;
+
+    }
+
+    .servicesnew {
+        width: 100%;
+        margin: 15px 10px;
+
+    }
+
+    .serviceicontxttt {
+        width: calc(100% - 150px);
+        margin-left: 10px;
+    }
+
+    #aboutme {
+        padding-bottom: 30px;
+    }
+
+    #aboutmetxt {
+        font-size: 18px;
+    }
+
+    .show-mob {
+        display: block;
+    }
+
+    .hide-mob {
+        display: none;
+    }
+
+    #aboutmeavatar {
+        margin: 25px 0;
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+
+    .avatar {
+        width: 200px;
+        height: 200px;
+        margin: 0 0 10px 0;
+    }
+
+    #aboutmeavatarktxt {
+        width: 100%;
+        text-align: center;
+    }
+
+    .helppcc {
+        font-size: 23px;
+    }
+
+    #footerk {
+        flex-direction: column;
+    }
+
+    .footerkblock {
+        width: 100%;
+        margin: 15px 0;
+        height: auto;
+    }
+
+    #mobilec {
+        margin-top: 8px;
+        font-size: 17px;
+    }
+
+}
+
+@media (max-width:450px) {
+    #txtc {
+        padding: 0 15px;
+        margin-left: 0;
+    }
+
+    .servicesnew {
+        width: 100%;
+    }
+
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+
+}
